@@ -1,11 +1,10 @@
 /* Minimal JS -- Cookies -- http://github.com/cdmoyer/minimaljs
  * Copyright (c) 2009 Chris Moyer (chris@inarow.net)
+ * MIT (http://www.opensource.org/licenses/mit-license.php) licensed.
  *
  * Usage:
  * mjs.cookie_set(name, value, [expire minutes])
  * mjs.cookie_get(name);
- *
- * MIT (http://www.opensource.org/licenses/mit-license.php) licensed.
  */
 if (typeof mjs == "undefined") { mjs = {}; }
 (function (mjs) {

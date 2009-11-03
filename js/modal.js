@@ -1,11 +1,11 @@
 /* Minimal JS -- Modal -- http://github.com/cdmoyer/minimaljs
  * Copyright (c) 2009 Chris Moyer (chris@inarow.net)
+ * MIT (http://www.opensource.org/licenses/mit-license.php) licensed.
  *
  * Usage:
  * mjs.modal_open('<h1>A Modal</h1><p>Yay!</p>'); // Open a modal
  * mjs.modal_close();           // Close a modal
  *
- * MIT (http://www.opensource.org/licenses/mit-license.php) licensed.
  */
 if (typeof mjs == "undefined") { mjs = {}; }
 (function (mjs) {
