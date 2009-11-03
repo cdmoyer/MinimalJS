@@ -12,16 +12,16 @@ Usage
 
 ### Quick Start
 
-Copy files from /js/ into your web path, include them, use them
+Copy files from `/js/` into your web path, include them, use them
 
 ### Custom Build
 
 If you find that you need multiple functions on a page, you probably want to create a custom build (and ask yourself if you should be using a real library.)  MinimalJS uses [Sprockets](http://getsprockets.com/) as an internal build system, making it simple do so yourself.
 
-1.  Create your file, specifying the modules you wish to use with load directives.
+1.  Create your file, specifying the modules you wish to use with `require` directives.
 	
-		//= require &lt;cookie&gt;
-		//= require &lt;modal&gt;
+		//= require <cookie>
+		//= require <modal>
 
 2.  Add whatever other javascript you want to your file
 3.  Run `sprocketize`
