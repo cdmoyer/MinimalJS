@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/modal.js" type="text/javascript"></script>
+		<script src="js/cookie.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<h1>Minimal JS - Tester</h1>
+
+		<div class="section">
+			<h2>Modal</h2>
+			<form>
+				<textarea id="modal_text">&lt;b&gt;Test Modal Test&lt;&gt;</textarea> <br />
+				<a href="javascript:void(mjs.modal_open(document.getElementById('modal_text').value))">mjs.modal_open(document.getElementById('modal_text').value)</a> <br />
+				<a href="javascript:void(mjs.modal_close())">mjs.modal_close()</a> <br />
+			</form>
+		</div>
+
+		<div class="section">
+			<h2>Cookie</h2>
+			<form>
+				Cookie Name: <input type="text" id="cookie_name" value="favorite" /><br />
+				Cookie Value: <input type="text" id="cookie_value" value="gingersnaps" /><br />
+				<a href="javascript:void(mjs.cookie_set(document.getElementById('cookie_name').value, document.getElementById('cookie_value').value))">mjs.cookie_set(document.getElementById('cookie_name').value, document.getElementById('cookie_value').value)</a> <br />
+				<a href="javascript:void(val = mjs.cookie_get(name = document.getElementById('cookie_name').value), alert(name + '=' + val))">mjs.coookies_get(document.getElementById('cookie_name').value)</a> <br />
+			</form>
+		</div>
+	</body>
+</html>
